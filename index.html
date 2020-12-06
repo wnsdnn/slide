@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Slide</title>
-	<link rel="stylesheet" href="css/index.css">
-	<script src="js/index.js"></script>
+    <meta charset="UTF-8">
+    <title>slide_junwoo</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/jquery-1.12.3.js"></script>
+    <script src="./js/common.js"></script>
 </head>
-<body>
-	
+<body> 
+    <div class="container">
+        <nav class="slide">
+            <div class="back"><</div>
+            <div class="next">></div>
+            <ul>
+                <li><img src="./img/slide1.jpg" alt=""></li>
+                <li><img src="./img/slide2.jpg" alt=""></li>
+                <li><img src="./img/slide3.jpg" alt=""></li>
+                <li><img src="./img/slide4.jpg" alt=""></li>
+                <li><img src="./img/slide5.jpg" alt=""></li>
+            </ul>
+            <input type="radio" name="pos" id="pos1" checked>
+            <input type="radio" name="pos" id="pos2">
+            <input type="radio" name="pos" id="pos3">
+            <p class="bullet">
+              <label for="pos1" class="btm1">1</label>
+              <label for="pos2" class="btm2">2</label>
+              <label for="pos3" class="btm3">3</label>
+              <label for="pos3" class="btm4">4</label>
+              <label for="pos3" class="btm5">5</label>
+            </p>
+        </nav>
+    </div>
 </body>
 </html>
